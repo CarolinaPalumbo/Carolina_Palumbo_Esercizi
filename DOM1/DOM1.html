@@ -1,0 +1,46 @@
+<!-- 
+ Stampa in ordine in console:
+
+l'elemento padre di ul.
+il secondo elemento figlio di ul.
+l'elemento fratello successivo del secondo li.
+l'elemento fratello precedente del secondo li.
+
+Il tutto utilizzando tutte e 4 le proprietà viste nel video. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <script>
+        // ...
+    </script>
+</body>
+
+</html>
+
+const ul = document.querySelector("ul")
+undefined
+console.log(ul.parentElement)
+VM1508:1 <body cz-shortcut-listen=​"true" __processed_7982e7c6-09ac-45f7-8a32-32ddb3c7320d__=​"true" bis_register=​"W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjI2Iiwic2NvcmUiOjIwMDI2fV0=">​…​</body>​
+undefined
+console.log(ul.children[1])
+VM1591:1 <li>​…​</li>​
+undefined
+console.log(ul.children[1].nextElementSibling)
+VM1717:1 <li>​…​</li>​
+undefined
+console.log(ul.children[1].previousElementSibling)
+VM1856:1 <li>​…​</li>​
+undefined
